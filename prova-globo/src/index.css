@@ -1,0 +1,23 @@
+*{
+    background-color: whitesmoke;
+    inset-inline-end: block;
+    
+}
+
+.jogadores{
+    display: flex;
+    font-weight: bold;
+    flex-direction: column;
+    width: 100px;
+    height: 200px;
+    
+}
+
+
+.pai{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+     margin-top: 30px ;
+
+}
