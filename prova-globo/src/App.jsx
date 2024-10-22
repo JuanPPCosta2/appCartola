@@ -28,7 +28,7 @@ function App() {
       <img className= 'foto' src="https://logodownload.org/wp-content/uploads/2017/05/cartola-fc-logo-5.png" alt="logo" />
       <input className='barra' onChange={(e) => setInput(e.target.value)}/>
        <div className='botao' onClick={() => filtrar()}>
-        buscar
+        Buscar
       </div>
     </header>
       {times?.map((item) => (
